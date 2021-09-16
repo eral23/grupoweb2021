@@ -86,6 +86,121 @@ header nav {
     display: flex;
 }
 
+ /*##############################  MARX    ######################################################*/
+
+.hero {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin:0;
+}
+
+.hero .background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #2196f3;
+    z-index: 0;
+	justify-content: center;
+    align-items: center;
+}
+.hero .background-image:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #414a4f;
+    opacity: 0.20;
+	
+}
+.hero h1 {
+    font: bold 60px 'Open Sans', sans-serif;
+    margin: 5px;
+    padding: 5px;
+    z-index: 2;
+}
+.hero h2{
+    font: bold 60px 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(240, 139, 8);
+    border-radius: 12px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    z-index: 2;
+}
+.hero img {
+    z-index: 4;
+    width: 550px;
+}
+@media (max-width: 800px){
+    .hero .background-image {
+        width: 450px;
+		height: 435px;
+		background-size: 900px, 650px;
+    }
+	.hero .background-image:after {
+        width: 450px;
+		height: 435px;
+    }
+    .hero h1 {
+        font-size: 15px;
+		padding-top: -50px;
+		margin-top: -50px;
+    }
+    .hero h2{
+        padding-bottom: 20px;
+		margin-bottom: 0px;
+    }
+	.hero img {
+		width: 250px;
+	}
+}
+@media (max-width: 550px){
+    
+}
+
+.video{
+    background-color: #57BFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.video .background-image{
+    /* position: absolute;*/
+     top: 0;
+     left: 0;
+     width:100%;
+     height: 560px;
+     background-size:cover;
+     background-color: #414a4f;
+     margin:0;
+ }
+ .video .background-image:after{
+     content: '';
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 560px;  
+
+ }
+
+ /*##############################  MARX    ######################################################*/
+
 .video h4{
     font: bold 40px 'Open Sans', sans-serif;
 	text-align: center;
