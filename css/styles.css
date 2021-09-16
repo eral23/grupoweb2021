@@ -85,3 +85,98 @@ header h2{
 header nav {
     display: flex;
 }
+
+.video h4{
+    font: bold 40px 'Open Sans', sans-serif;
+	text-align: center;
+    color:rgb(253, 252, 250);
+}
+.video h2 img{
+    max-width: 290px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    height: 290px;
+    
+}
+@media (max-width: 550px){
+    .video {
+        min-height: 100%;
+    }
+    .video h2 img{
+        margin-bottom: 10px;
+		padding-bottom: 10px;
+		max-width: 170px;
+		max-height: 170px;
+    }
+	.video h4{
+        font-size: 1px;
+    }
+	.video video{
+		width: 350px;
+		height: 200px;
+	}
+}
+@media(max-width: 750px){
+    .video h4 {
+        font-size: 20px;
+    }
+}	
+
+
+
+.whyadopt{
+    background-color: rgb(240, 139, 8);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.whyadopt h4{
+    font: bold 40px 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+    color:rgb(253, 252, 250);
+}
+.whyadopt a{
+    font: bold 40px 'Open Sans', sans-serif;
+}
+.whyadopt .grid li{
+    padding: 0 30px;
+    flex-basis: 33.3%;
+    text-align: center;
+}
+.whyadopt .grid li p{
+   color:#fff;
+   font: bold 25px 'Open Sans', sans-serif;
+}
+@media(max-width: 750px){
+	.whyadopt{
+		display: column;
+	}
+	.whyadopt .grid li{
+		flex-basis: 70%;
+	}
+	.whyadopt .grid li p{
+		font-size: 15px;
+	}
+	.whyadopt .grid li i img{
+		margin-top: 20px;
+	}
+    .whyadopt h4 {
+        font-size: 20px;
+		margin-top: 20px;
+    }
+}
+
+
+.whoweare {
+    /*position: relative;*/
+    justify-content: center;
+  
+    color: #fff;
+    text-align: center;
+    background-color: #34d8f5;
+    margin:0;
+    padding:0;
+    align-items: center;
+}
